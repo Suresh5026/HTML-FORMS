@@ -1,0 +1,49 @@
+body{
+    margin-top:20px;
+    background-color: skyblue;
+}
+.food {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 15px 1px rgba(80, 57, 184, 0.08);
+    background-color: aqua;
+}
+
+.food {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:pink;
+    background-clip: border-box;
+    border: 1px solid silver;
+    border-radius: .2rem;
+}
+
+div#tables {
+    height: 300px;
+    overflow: auto;
+}
+
+table th{
+    border: 2px solid blue;
+    background-color: skyblue;
+    height:50px;
+}
+table{
+    border-collapse: collapse;
+    width:100%;
+    margin-top: 15px;
+}
+
+table td{
+    border: 2px solid blue;
+    background-color:lightblue;
+    height:50px;
+}
+
+#address{
+    width: 600px;
+}
